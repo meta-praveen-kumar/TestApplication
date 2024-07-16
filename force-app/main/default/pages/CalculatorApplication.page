@@ -22,6 +22,9 @@
                 <apex:commandButton value="Addition" action="{!add}"/> 
             </apex:pageBlockSectionItem>
             <apex:pageBlockSectionItem>
+                <apex:commandButton value="Subtraction" action="{!sub}"/>
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem>
                 <apex:commandButton value="Multiplication" action="{!mul}"/> 
             </apex:pageBlockSectionItem>
           </apex:pageBlockSection>
