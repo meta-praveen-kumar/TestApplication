@@ -10,4 +10,10 @@ public with sharing class CalculaterApp {
         operation = 'Addition';
         return null;
     }
+    
+    public pagereference mul() {
+        result = xvalue*yvalue;
+        operation = 'Multiplication';
+        return null;
+    }
 }
